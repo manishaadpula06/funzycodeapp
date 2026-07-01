@@ -19,7 +19,7 @@ services:
 
   backend:
     build:
-      context: ./backend/funzycode-backend
+      context: ./backend
       dockerfile: Dockerfile
     container_name: funzycode-backend
     restart: unless-stopped
